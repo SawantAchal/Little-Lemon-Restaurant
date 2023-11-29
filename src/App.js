@@ -1,9 +1,15 @@
 import './App.css';
+import Footer from './Footer';
+import Header from './Header';
+import Navigation from './Navigation';
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+    <Navigation/>
+    <Header/>
+    <Footer/>
+    </>
   );
 }
 
