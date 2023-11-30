@@ -1,4 +1,6 @@
 import './App.css';
+import BookingForm from './Components/BookingForm';
+import BookingPage from './Components/BookingPage';
 import Footer from './Footer';
 import Header from './Header';
 import Hero from './Hero'
@@ -12,6 +14,8 @@ function App() {
     <Navigation/>
     <Routes>
       <Route path='/' element={<Hero />} />
+      <Route path='/booking-page' element={<BookingPage />} />
+      <Route path='booking-form' element={<BookingForm/>} />
     </Routes>
     <Highlights/>
     <Header/>
