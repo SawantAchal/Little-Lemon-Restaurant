@@ -1,0 +1,12 @@
+.hero {
+    background-color: #495e57;
+    height: 55dvh;
+    display: flex;
+    padding-top: 1vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+    gap: 0;
+}

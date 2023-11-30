@@ -1,0 +1,28 @@
+.Highlights{
+    margin: 100pt;
+    margin-right: 200pt;
+}
+
+.box{
+    height: 55dvh;
+    width: 30vh;
+    background-color: #EDEFEE;
+    border-top-right-radius:16pt ;
+    border-top-left-radius: 16pt;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box img{
+    border-top-right-radius:16pt ;
+    border-top-left-radius: 16pt;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
