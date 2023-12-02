@@ -1,9 +1,12 @@
 import React from 'react'
 
-const ConfirmedBooking = () => {
+const ConfirmedBookings = () => {
   return (
-    <div>ConfirmedBooking</div>
+    <div>
+      <h1>Booking Confirmed</h1>
+    </div>
+    
   )
 }
 
-export default ConfirmedBooking
+export default ConfirmedBookings

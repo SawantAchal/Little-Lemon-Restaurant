@@ -17,12 +17,12 @@ const Navigation = () => {
         <img src={logo}/>
         <b>
         <ul className={`navbar-link ${menuOpen ? "visible" : ""}`}>
-          <Link to="/"><li>Home</li></Link>
-          <Link to="/"><li>About</li></Link>
-          <Link to="/"><li>Menu</li></Link>
-          <Link to="/"><li>Reservations</li></Link>
-          <Link to="/"><li>Order Online</li></Link>
-          <Link to="/"><li>Login</li></Link>
+          <li><Link to="/" className='mob lap'>Home</Link></li>
+          <li><Link to="/" className='mob lap'>About</Link></li>
+          <li><Link to="/" className='mob lap'>Menu</Link></li>
+          <li><Link to="/" className='mob lap'>Reservations</Link></li>
+          <li><Link to="/" className='mob lap'>Order Online</Link></li>
+          <li><Link to="/" className='mob lap'>Login</Link></li>
         </ul>
         </b>
         {/* Mobile Navigation */}

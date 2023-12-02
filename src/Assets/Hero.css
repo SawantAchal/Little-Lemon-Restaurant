@@ -1,6 +1,6 @@
 .hero {
     background-color: #495e57;
-    height: 55dvh;
+    height: 60dvh;
     display: flex;
     padding-top: 1vh;
     justify-content: space-evenly;
@@ -9,4 +9,62 @@
 
 main{
     gap: 0;
+}
+
+main h2{
+    font-size: 64pt;
+    color:#F4CE14 ;
+}
+
+main h5{
+  font-size: 40pt;
+  color: #EDEFEE;
+  margin-top: -80pt;
+}
+
+main p{
+  color: #EDEFEE;
+  margin-top: -60pt;
+  font-size: 16pt;
+}
+
+@media screen and (max-width :768px) {
+  .hero{
+    flex-direction: column-reverse;
+    height: 80dvh;
+    margin: 0;
+  }
+
+  main{
+    text-align: center;
+  }
+
+  main h2{
+    margin-top: -10vh;
+    font-size: 45pt;
+  }
+
+  main h5{
+    margin-top: -5vh;
+    font-size: 30pt;
+  }
+
+  main p{
+    margin-top: -5vh;
+  }
+
+  #img1{
+    display: none;
+  }
+
+  #img {
+    height: auto;
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  button {
+    margin-top: -20px;
+  }
 }

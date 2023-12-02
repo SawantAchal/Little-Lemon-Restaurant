@@ -8,30 +8,26 @@ nav {
 ul {
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 li {
   padding: 2vh;
-  text-decoration: solid;
+  font-size: 16pt;
+  color: #333333;
 }
 
-.navbar {
-  padding: 10px 13%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
 .hamburger{
   display: none;
   cursor: pointer;
 }
 
-.navbar-link {
-  list-style: none;
-  display: flex;
-  align-items: center;
+.lap{
+  color: #333333;
+  text-decoration: none;
 }
+
 
 .navbar-link.visible {
   flex-direction: column;
@@ -48,17 +44,23 @@ li {
 
 
 @media screen and (max-width: 768px){
+  nav{
+    margin: 5pt;
+  }
   .hamburger {
     display: block;
+    font-size: 17pt;
   }
 
   .navbar-link {
     display: none;
   }
 
+  .mob{
+    color: white;
+  }
 .navbar-link.visible {
     display: flex;
-    background: #333333;
     z-index: 1000;
     padding: 20px 0;
   }
