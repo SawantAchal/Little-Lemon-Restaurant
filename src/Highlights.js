@@ -10,7 +10,7 @@ const Highlights = () => {
     <div className='Highlights'>
       <header>
         <h1>This weeks specials!</h1>
-        <button  style={{backgroundColor:"#F4CE14" , color:"#333333" , marginTop:"-60pt" , height:"5dvh", borderRadius:"9pt" , width:"17vh" , border:"none"}}>Online Menu</button>
+        <button id='btn' style={{backgroundColor:"#F4CE14"  , marginTop:"6pt" , height:"5dvh", borderRadius:"9pt" , width:"17vh" , border:"none", textAlign:"center" , alignItems:"center"}}><b>Online Menu</b></button>
       </header>
       <article>
         <div className='box'>
@@ -29,7 +29,7 @@ const Highlights = () => {
           <img src={img4} alt='' style={{height:"20dvh" , width:"30vh"}}/>
           <header style={{margin:"7pt"}}><strong>Lemon Dessert </strong> <span style={{color:"#EE9972" , marginLeft:"31pt"}}>$5.00</span></header>
           <p style={{margin:"7pt"}}>This comes straight from grandma's recipe book ,every last ingredient has been sourced and is as authentic as can be imagined</p>
-          <p style={{fontSize:"12pt" ,margin:"7pt" , marginTop:"17pt"}}>Order a delivery <span style={{marginLeft:"3.5pt" , fontSize:"12pt"}}><MdDeliveryDining /></span></p>
+          <p style={{fontSize:"12pt" ,margin:"7pt" , marginTop:"17pt"}}>Order a delivery <span style={{marginLeft:"3.5pt" , fontSize:"12pt" , marginBottom:"-67pt"}}><MdDeliveryDining /></span></p>
         </div>
       </article>
     </div>

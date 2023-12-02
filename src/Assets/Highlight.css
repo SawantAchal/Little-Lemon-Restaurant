@@ -1,10 +1,16 @@
-/* .Highlights{
+.Highlights{
     margin: 100pt;
     margin-right: 200pt;
+
+}
+
+#btn{
+    color: #333333;
+    margin-bottom: -15pt    ;
 }
 
 .box{
-    height: 55dvh;
+    height: 53dvh;
     width: 30vh;
     background-color: #EDEFEE;
     border-top-right-radius:16pt ;
@@ -25,4 +31,34 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
+
+@media screen and (max-width : 768px) {
+    .Highlights{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    header{
+        margin-top: 5vh;
+    }
+
+    header h1{
+        font-size: 20pt;
+    }
+
+    header #btn{
+        margin-bottom: -45pt;
+        font-size: 17pt;
+    }
+
+    article{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    
+    article .box{
+        margin-top: 4vh;
+    }
+}

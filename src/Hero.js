@@ -14,7 +14,7 @@ const Hero = () => {
         <button style={{backgroundColor:"#F4CE14" , color:"#333333" , marginTop:"-60pt" , height:"5dvh", borderRadius:"9pt" , width:"25vh" , border:"none"}}><b>Reserve a Table</b></button>
         </Link>
       </main>
-      <img id='img1' src={img1} style={{height:"50dvh" , width:"35vh" , borderRadius:"8pt" , marginTop:"80pt" ,marginRight:"30pt" , fontSize:"18pt"}}/>
+      <img id='img1' src={img1} style={{height:"50dvh" , width:"35vh" , borderRadius:"8pt" , marginTop:"110pt" ,marginRight:"30pt" , fontSize:"18pt"}}/>
     </div>
   )
 }

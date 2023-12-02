@@ -28,6 +28,13 @@ li {
   text-decoration: none;
 }
 
+.lap:hover{
+  color: rgb(146, 233, 122);
+}
+
+.lap:active{
+  color: indigo;
+}
 
 .navbar-link.visible {
   flex-direction: column;
