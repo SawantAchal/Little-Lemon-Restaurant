@@ -49,7 +49,37 @@ header{
 
     header #btn{
         margin-bottom: -45pt;
-        font-size: 17pt;
+        font-size: 10pt;
+    }
+
+    article{
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+    }
+    
+    article .box{
+        margin-top: 4vh;
+    }
+}
+
+@media screen and (max-width : 300px) {
+    .Highlights{
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    header{
+        margin-top: 5vh;
+    }
+
+    header h1{
+        font-size: 20pt;
+    }
+
+    header #btn{
+        margin-bottom: -45pt;
+        font-size: 10pt;
     }
 
     article{
